@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sms</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav_logo">
+                    <a href="#"><img src="assets/Image/logo.png" alt="Logo"></a>
+                </div>
+            
+                <div class="nav_menu">
+                    <div class="search">
+                        <form action="#" method="post" class="form_search">
+                            <input type="search" placeholder="Search">
+                            <span type="submit"><img src="assets/Image/search.svg" alt="icon"></span>
+                        </form>
+                        <button class="Add_member"><a href="#">Add Member</a></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <div class="fb_home">
+            
+            <div class="fbd">
+                <div class="fb_genarel">
+                    <div class="fbg_close" onclick="fbgClose()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                          </svg>
+                    </div>
+                    <div class="fb_img">
+                        <img src="assets/Image/hero_img.png" alt="img">
+                        <h3>Md munna</h3>
+                    </div>
+                    <hr>
+                    <h2>General</h2>
+                    <hr>
+                    <ul class="fb_list">
+                        <li>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  </svg>
+                            </span>
+                            <a href="#">Member List</a>
+                        </li>
+                        <li>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  </svg>
+                            </span>
+                            <a href="#">Account</a>
+                        </li>
+                        <li>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  </svg>
+                            </span>
+                            <a href="#">SMS</a>
+                        </li>
+                        <li>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  </svg>
+                            </span>
+                            <a href="#">Blood Request</a>
+                        </li>
+                        <li>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  </svg>
+                            </span>
+                            <a href="#">Tracking</a>
+                        </li>
+                        <li>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  </svg>
+                            </span>
+                            <a href="#">Id Card</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fb_db">
+                    <div class="db_head">
+                        <span onclick="fbgShowMenu()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+                        </span>
+                        <h1>SMS</h1>
+                    </div>
+                    
+                    <div class="data_profile">
+                        <form action="#" method="post">
+                            <div class="profile_sms">
+                                <div class="SMS_group" onclick="mailSms()">
+                                    <label for="mails">Mail</label>
+                                    <input type="radio" name="sms_a" id="mails">
+                                </div>
+                                <div class="SMS_group" onclick="singleSms()">
+                                    <label for="ssms">Single SMS</label>
+                                    <input type="radio" name="sms_a" id="ssms">
+                                </div>
+                                <div class="SMS_group" onclick="groupSms()">
+                                    <label for="gsms">Group sms</label>
+                                    <input type="radio" name="sms_a" id="gsms">
+                                </div>
+                            </div>
+
+                            <!-- mail_sms -->
+                            <div class="mail_sms" id="smsMail">
+                                <div class="SMS_group bldr_sms">
+                                    <label for="sms">Massage</label>
+                                    <br>
+                                    <textarea id="sms" rows="7" placeholder="Massage"></textarea>
+                                </div>
+                                <div class="profile_countinue">
+                                    <input type="submit" value="submit">
+                                </div>
+                            </div>
+
+                            <!-- Single SMS -->
+                            <div class="single_sms" id="smsSingle">
+                                <br>
+                                <div class="form_group">
+                                    <label for="pasient">Number</label>
+                                    <input type="number" id="pasient" placeholder="Patient Name">
+                                </div>
+                                <div class="SMS_group bldr_sms">
+                                    <label for="sms">Massage</label>
+                                    <input type="file" class="smsFile">
+                                    <br>
+                                    <textarea id="sms" rows="7" placeholder="Massage"></textarea>
+                                </div>
+                                <div class="profile_countinue">
+                                    <input type="submit" value="submit">
+                                </div>
+                            </div>
+
+                            <!-- Group sms -->
+                            <div class="group_sms" id="smsGroup">
+                                <div class="SMS_group bldr_sms">
+                                    <label for="sms">Massage</label>
+                                    <br>
+                                    <textarea id="sms" rows="7" placeholder="Massage"></textarea>
+                                </div>
+                                <div class="profile_countinue">
+                                    <input type="submit" value="submit">
+                                </div>
+
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script>
+        const fbGenarel = document.querySelector('.fb_genarel');
+        function fbgShowMenu() {
+            fbGenarel.style.left = '1%'
+        }
+        function fbgClose() {
+            fbGenarel.style.left = '-100%'
+        }
+
+        // sms group
+        const smsMail = document.querySelector('#smsMail');
+        const smsSingle = document.querySelector('#smsSingle');
+        const smsGroup = document.querySelector('#smsGroup');
+        function allsms(){
+            smsMail.style.display = 'none';
+            smsSingle.style.display = 'none';
+            smsGroup.style.display = 'none';
+        }
+        function mailSms() {
+            allsms()
+            smsMail.style.display = 'block';
+        }
+        function singleSms() {
+            allsms()
+            smsSingle.style.display = 'block';
+        }
+        function groupSms() {
+            allsms()
+            smsGroup.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
